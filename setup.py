@@ -148,6 +148,7 @@ if __name__ == '__main__':
         keywords='computer vision, 3D object detection',
         url='https://github.com/open-mmlab/mmdetection3d',
         packages=find_packages(exclude=('configs', 'tools', 'demo')),
+        include_package_data=True,
         package_data={'mmdet3d.ops': ['*/*.so']},
         classifiers=[
             'Development Status :: 4 - Beta',
