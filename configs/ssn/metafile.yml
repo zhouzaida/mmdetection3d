@@ -1,9 +1,6 @@
 Collections:
   - Name: SSN
     Metadata:
-      Training Data:
-        - nuScenes
-        - Lyft
       Training Techniques:
         - AdamW
       Training Resources: 8x GeForce GTX 1080 Ti
@@ -18,7 +15,7 @@ Models:
     In Collection: SSN
     Config: configs/ssn/hv_ssn_secfpn_sbn-all_2x16_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 2.67
+      Training Data: nuScenes
       Training Memory (GB): 9.62
     Results:
       - Task: 3D Object Detection
@@ -32,7 +29,7 @@ Models:
     In Collection: SSN
     Config: configs/ssn/hv_ssn_regnet-400mf_secfpn_sbn-all_2x16_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 3.33
+      Training Data: nuScenes
       Training Memory (GB): 10.26
     Results:
       - Task: 3D Object Detection
@@ -46,7 +43,7 @@ Models:
     In Collection: SSN
     Config: configs/ssn/hv_ssn_secfpn_sbn-all_2x16_2x_lyft-3d.py
     Metadata:
-      train time (s/iter): 9.9
+      Training Data: Lyft
       Training Memory (GB): 8.30
     Results:
       - Task: 3D Object Detection
@@ -60,7 +57,7 @@ Models:
     In Collection: SSN
     Config: configs/ssn/hv_ssn_regnet-400mf_secfpn_sbn-all_1x16_2x_lyft-3d.py
     Metadata:
-      train time (s/iter): 6.8
+      Training Data: Lyft
       Training Memory (GB): 9.98
     Results:
       - Task: 3D Object Detection

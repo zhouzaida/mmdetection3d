@@ -8,6 +8,7 @@ Collections:
       Architecture:
         - Hard Voxelization
         - Focal Loss
+        - Free Anchor
     Paper: https://arxiv.org/abs/1909.02466
     README: configs/free_anchor/README.md
 
@@ -16,7 +17,6 @@ Models:
     In Collection: FreeAnchor
     Config: free_anchor/hv_pointpillars_fpn_sbn-all_free-anchor_4x8_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 1.27
       Training Memory (GB): 16.2
     Results:
       - Task: 3D Object Detection
@@ -30,7 +30,6 @@ Models:
     In Collection: FreeAnchor
     Config: configs/free_anchor/hv_pointpillars_regnet-400mf_fpn_sbn-all_free-anchor_4x8_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 1.51
       Training Memory (GB): 17.7
     Results:
       - Task: 3D Object Detection
@@ -44,7 +43,6 @@ Models:
     In Collection: FreeAnchor
     Config: configs/free_anchor/hv_pointpillars_regnet-1.6gf_fpn_sbn-all_free-anchor_4x8_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 1.82
       Training Memory (GB): 24.3
     Results:
       - Task: 3D Object Detection
@@ -58,7 +56,6 @@ Models:
     In Collection: FreeAnchor
     Config: configs/free_anchor/hv_pointpillars_regnet-1.6gf_fpn_sbn-all_free-anchor_strong-aug_4x8_3x_nus-3d.py
     Metadata:
-      train time (s/iter): 1.82
       Training Memory (GB): 24.3
     Results:
       - Task: 3D Object Detection
@@ -72,7 +69,6 @@ Models:
     In Collection: FreeAnchor
     Config: configs/free_anchor/hv_pointpillars_regnet-3.2gf_fpn_sbn-all_free-anchor_4x8_2x_nus-3d.py
     Metadata:
-      train time (s/iter): 2.16
       Training Memory (GB): 29.5
     Results:
       - Task: 3D Object Detection
@@ -86,7 +82,6 @@ Models:
     In Collection: FreeAnchor
     Config: configs/free_anchor/hv_pointpillars_regnet-3.2gf_fpn_sbn-all_free-anchor_strong-aug_4x8_3x_nus-3d.py
     Metadata:
-      train time (s/iter): 2.16
       Training Memory (GB): 29.5
     Results:
       - Task: 3D Object Detection
